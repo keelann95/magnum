@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    height: max-content;
+}
+
+.main-container {
+    width: 1170px;
+    height: 884px;
+    margin-top: 150px;
+    margin-left: 210px;
+
+}
+
+.footer {
+    width: 100%;
+    margin-top: 550px;
+    height: 440px;
+}
+
+.page-header {
+    width: 112px;
+    height: 26px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 26px;
+    margin-bottom: 70px;
+}
+
+.wishlist-container {
+    width: 1200px;
+    height: 322px;
+    display: flex;
+    gap: 130px;
+}
+
+.product-card {
+    width: 270px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-image: linear-gradient(to right, rgb(236, 235, 235), rgb(173, 166, 166));
+}
+
+.discount {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.discount-amount {
+    width: 55px;
+    height: 26px;
+    margin-top: 12px;
+    margin-left: 12px;
+    border-radius: 4px;
+    padding: 4px 12px 4px 12px;
+    background-color: #db4444;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+}
+
+.bin {
+    width: 34px;
+    height: 34px;
+    margin-top: 12px;
+    margin-left: 170px;
+}
+
+.bin-icon {
+    width: 16px;
+    height: 18px;
+    margin-top: 12px;
+}
+
+.bin-icon2, .bin-icon3 {
+    width: 16px;
+    height: 18px;
+    margin-top: 12px;
+    margin-left: 65px;   
+}
+
+.cart-button {
+    text-align: center;
+}
+
+.cart-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.btn {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 18px;
+   color: white;
+   background-color: #000;
+   display: flex;
+   gap: 8px;
+   width: 270px;
+   height: 41px;
+   align-items: center;
+   justify-content: center;
+}
+
+.details {
+    margin-top: 8px;
+    width: 133px;
+    height: 56px;
+}
+
+.name {
+    width: 133px;
+    height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    text-wrap: nowrap;
+    margin-bottom: 4px;
+}
+
+.amount {
+    width: 42px;
+    height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #db4444;
+    margin-right: 8px;
+}
+
+.amount2 {
+    width: 43px;
+    height: 24px;
+    opacity: 50%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: #000;
+}
+
+.move {
+    width: 223px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    padding: 16px 48px;
+    margin-right: -290px;
+}
+
+.just-for-you {
+    width: 1170px;
+    height: 466px;
+    margin-top: 250px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.see {
+    width: 150px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    margin-right: -290px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #000;
+}
+.fyp {
+    width: 120px;
+    height: 26px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    border-left: 20px solid #db4444;
+    text-wrap: nowrap;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.bin1 {
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 170px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.bin2 {
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 235px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.bin-icon5 {
+    width: 20px;
+    height: 22px;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.bin-icon4 {
+    width: 20px;
+    height: 22px;
+    margin-top: 1px;
+    margin-left: 2px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+.pple {
+    margin-left: 5px;
+}
+
+.star {
+    color: #FFAD33;
+}
+
+.ima {
+    height: 250px;
+    width: 270px;
+}
+
+.discount-amount2 {
+    width: 55px;
+    height: 26px;
+    margin-top: 12px;
+    margin-left: 12px;
+    border-radius: 4px;
+    padding: 4px 12px 4px 12px;
+    background-color: #00ff66;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
+}
+
+
